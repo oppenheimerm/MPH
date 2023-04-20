@@ -1,0 +1,11 @@
+{
+  "name": "mph",
+  "version": "1.0.0",
+  "description": "Asp.Net razor image gallery app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michiel Oppenheimer",
+  "license": "ISC"
+}

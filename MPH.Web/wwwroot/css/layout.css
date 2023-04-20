@@ -1,0 +1,50 @@
+﻿/*=============== 
+    1. Shared Css classes.
+
+=============================*/
+
+/* 1. Shared Css classes. */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+    .wrapper > * {
+        padding: 20px;
+    }
+
+.container {
+}
+
+/*
+    By setting flex-grow: 1 on the main element, it expands to cover the 
+    available space inside the flex container. 
+*/
+.main__content {
+    flex-grow: 1;
+}
+
+.header__content nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__content nav {
+    display: flex;
+    order: 1;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.main__content {
+    display: flex;
+    flex-direction: column;
+    min-height: 350px;
+}
+
+.footer__content {
+    display: flex;
+}
