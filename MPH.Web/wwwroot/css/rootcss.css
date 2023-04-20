@@ -1,0 +1,55 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap');
+
+/* 1. root */
+:root {
+    /*========== 
+        Colors 
+    ==========*/
+    /*========== 
+        Font and typography 
+     ==========*/
+    --body-font: 'Sofia Sans Condensed', sans-serif;
+    /*========== 
+        Font weight 
+    ==========*/
+    /*========== 
+        Margins Bottom 
+    ==========*/
+    --mb-0-5: .5rem; /* 8px */
+    --mb-0-75: .75rem; /* 12px */
+    --mb-1: 1rem; /* 16px */
+    --mb-1-5: 1.5rem; /* 24px */
+    --mb-2: 2rem; /* 32px */
+    --mb-2-5: 2.5rem; /* 40px */
+    --mb-3: 3rem; /* 48px */
+    --mb-4: 3.6rem; /* 65px */
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    /*========== 
+        Animation
+    ==========*/
+    --ease-in-out-2-sec: .2s ease-in-out;
+    --ease-in-out-3-sec: .3s ease-in-out;
+    /*========== 
+        Others
+    ==========*/
+}
+
+/* 2. Base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+button,
+input {
+    font-family: var(--body-font);
+}
